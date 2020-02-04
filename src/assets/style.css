@@ -401,6 +401,7 @@ nav > ul {
 nav > ul > li {
   list-style: none;
   margin-right: var(--milli);
+  margin-left: var(--milli);
 }
 
 .profile {
@@ -474,9 +475,9 @@ hr {
   body > nav > ul {
     justify-content: right;
     flex-direction: column;
-    margin-right: var(--kilo);
     position: sticky;
     top: var(--whole);
+    padding: 0 var(--kilo);
   }
   body > nav > ul > li {
     margin-bottom: var(--whole);
