@@ -31,6 +31,7 @@
 
   /* line */
 
+  --exa: 64rem;
   --peta: 32rem;
   --tera: 16rem;
   --giga: 8rem;
@@ -483,7 +484,7 @@ hr {
   }
   main {
     width: 100%;
-    max-width: var(--measure);
+    max-width: var(--exa);
   }
   body {
     display: flex;
